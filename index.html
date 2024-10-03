@@ -2,16 +2,46 @@
 <html>
     <head>
         <title></title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <section class="sec__one">
-            <div>
-                <img id="can-main" src="can-main.png">
-            </div>
+                <h1 id="main-text">Orange</h1>
+                <img id="main-orgslice" src="images/orange-slice.png">
+                <img id="main-can" src="images/can-main.png">
+                <img id="main-leaf1" src="images/leaf-1.png">
+                <img id="main-leaf2" src="images/leaf-2.png">
+                <img id="main-leaf3" src="images/leaf-3.png">
+                <img id="main-leaf4" src="images/leaf-4.png">
+                <img id="main-leaf5" src="images/leaf-5.png">
+                <img id="main-leaf6" src="images/leaf-6.png">
+                <img id="main-leaf7" src="images/leaf-7.png">
+                <img id="main-leaf8" src="images/leaf-8.png">
+                <img id="main-orgsliceleft" src="images/orange-slice-left.png">
+                <img id="main-orgsliceright" src="images/orange-slice-right.png">
+
         </section>
         <section class="sec__two">
 
         </section>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   
+        <script>
+            let mainOrgslice=document.querySelector('#main-orgslice');
+
+            gsap.from(mainOrgslice,{
+                
+                left:0,
+                rotate:'-180deg',
+                ease: "slow(0.7,0.7,false)",
+                duration:1.5
+
+            })
+        </script>
     </body>
 </html>
