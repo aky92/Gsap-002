@@ -1,0 +1,20 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.sec__one,.sec__two{
+    height:100vh;
+}
+
+.sec__one{
+    position: relative;
+    background: linear-gradient(42deg, #ec7f00, #f2ab0e,#F8D41C);
+}
+
+#can-main{
+    width: 20%;
+    position: absolute;
+    left: 42%;
+    bottom: 0;
+}
