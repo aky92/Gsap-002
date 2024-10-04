@@ -84,6 +84,11 @@
     background: linear-gradient(42deg, #ec7f00, #f2ab0e,#F8D41C);
 }
 
+.sec__two{
+  position: relative;
+  background-color:aliceblue;
+}
+
 #main-can{
     width: 18%;
     position: absolute;
@@ -187,4 +192,17 @@ width: 14%;
     bottom: 10%;
     left: 64%;
     z-index: 0;
+}
+
+#ice-cube{
+  width: 50%;
+  position: absolute;
+  top: 34%;
+  z-index: 99999;
+}
+
+#logo{
+  position: absolute;
+    top: 31%;
+    right: 16%;
 }
