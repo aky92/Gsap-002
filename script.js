@@ -33,7 +33,7 @@ let t2=gsap.timeline({scrollTrigger:{
     scrub:true,
     start:'bottom 90%',
     end:'top 10%',
-    markers:true
+    // markers:true
 
 }});
 t2.to('#main-leaf1',{
@@ -57,8 +57,9 @@ t2.to('#main-leaf6',{
     x:'65px',
 },'onetime2')
 
+let tt=gsap.timeline();
 
-gsap.to(maincan,{
+tt.to(maincan,{
     y:'630px',
         rotate:'25deg',
     x:'-290px',
@@ -75,5 +76,24 @@ gsap.to(maincan,{
         // markers:true,
 
     }
-})
+},'aa')
 
+
+tt.to(maincan,{
+    top: "100%",
+    left: "63%",
+    width:'10%',
+    rotate:'0deg',
+    duration:2.6,
+    ease: "slow(0.7,0.7,false)",
+   
+    scrollTrigger:{
+        trigger:'.sec__three',
+        scroller:'body',
+        scrub:true,
+        start:'top 90%',
+        end:'top 10%',
+        markers:true,
+
+    }
+},'aa')
