@@ -63,7 +63,7 @@ tt.to(maincan,{
     y:'630px',
         rotate:'25deg',
     x:'-290px',
-    width:"20%",
+    width:"15%",
     duration:2.6,
     ease: "slow(0.7,0.7,false)",
    
@@ -72,28 +72,29 @@ tt.to(maincan,{
         scroller:'body',
         scrub:true,
         start:'top 90%',
-        end:'top 10%',
+        end:'top 12%',
         // markers:true,
 
     }
-},'aa')
+})
 
 
 tt.to(maincan,{
-    top: "100%",
-    left: "63%",
+    top: "780px",
+    left: "68%",
+
     width:'10%',
-    rotate:'0deg',
+    rotation: '25',          
+    rotation: '0',
     duration:2.6,
     ease: "slow(0.7,0.7,false)",
-   
     scrollTrigger:{
-        trigger:'.sec__three',
+        trigger:'#three__bottel2',
         scroller:'body',
         scrub:true,
         start:'top 90%',
         end:'top 10%',
-        markers:true,
+        // markers:true,
 
     }
-},'aa')
+})
